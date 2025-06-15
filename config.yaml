@@ -1,0 +1,8 @@
+postgres:
+  minconn: 2
+  maxconn: 20
+  user: postgres
+  password: root
+  host: localhost
+  port: 5432
+  database: rag_example

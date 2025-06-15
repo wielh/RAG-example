@@ -1,0 +1,4 @@
+embedding_model/
+files/
+venv/
+**/__pycache__/
