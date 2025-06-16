@@ -22,7 +22,7 @@ python, postgre with vector extension, embedding(all-MiniLM), llm(ollama - openc
 + 本地還安裝 ollama - openchat 本地版
 
 ## TODO
-+ fileSystem 與 RAG 共用程式分離
++ fileSystem 與 RAG 共用程式放至 common
 + 考慮實作不同的 embedding_model。因為不同的 embedding_model 向量維度不同，所以考慮生成新的 knowledge_base 時
   創建不同的 table 以儲存不同的 embedding。
 + metadata 實作
