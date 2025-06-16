@@ -26,3 +26,4 @@ python, postgre with vector extension, embedding(all-MiniLM), llm(ollama - openc
 + 考慮實作不同的 embedding_model。因為不同的 embedding_model 向量維度不同，所以考慮生成新的 knowledge_base 時
   創建不同的 table 以儲存不同的 embedding。
 + metadata 實作
++ 考慮將 vector db 與一般的 db 職責分離，可以更好的支援 langchain 的 vectorstore 與 retriever 
